@@ -1,0 +1,244 @@
+{
+  "youtube_url": "https://www.youtube.com/watch?v=TU_VIDEO_ID",
+  "city": "Tu Ciudad",
+  "latitude": 0.0,
+  "longitude": 0.0,
+  "timezone": "America/La_Paz",
+  "tts_provider": "fish_audio",
+  "voice": "es-BO-MarceloNeural",
+  "voice_rate": "-5%",
+  "voice_volume": "+0%",
+  "elevenlabs_api_key": "TU_API_KEY_AQUI",
+  "elevenlabs_model": "eleven_flash_v2_5",
+  "elevenlabs_stability": 0.5,
+  "elevenlabs_similarity": 0.75,
+  "elevenlabs_style": 0.0,
+  "fish_audio_api_key": "TU_API_KEY_AQUI",
+  "fish_audio_model_id": "TU_VOICE_MODEL_ID",
+  "fish_audio_model": "s1",
+  "fish_audio_speed": 0.8,
+  "fish_audio_volume": 0,
+  "xtts_reference_audio": "jarvis_sample.wav",
+  "xtts_language": "es",
+  "xtts_device": "cpu",
+  "sound_intro": "sounds/jarvis_intro.mp3",
+  "sound_outro": "sounds/jarvis_chime.mp3",
+  "user_name": "señor",
+  "brave_path": "C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application\\brave.exe",
+  "brave_path_fallback": "C:\\Program Files (x86)\\BraveSoftware\\Brave-Browser\\Application\\brave.exe",
+  "language": "es",
+  "messages": {
+    "greeting_morning": [
+      "Buenos días, señor {user}. Soy su asistente virtual.",
+      "Buenos días, {user}. Soy Jarvis, su asistente virtual.",
+      "Bienvenido de vuelta, señor {user}. Soy Jarvis, listo para asistirle.",
+      "Despertar inicializado. Buenos días, señor {user}.",
+      "Buenos días, señor {user}. Sistemas operativos al cien por ciento.",
+      "Buen día, {user}. Iniciando protocolos matinales.",
+      "Saludos, señor {user}. Un nuevo día comienza.",
+      "Activación matinal completada. Buenos días, señor {user}.",
+      "Arriba campeón. Hoy es tu día, {user}.",
+      "Buen día, {user}. Hoy vas a conquistar todo lo que te propongas.",
+      "Despierta {user}, el mundo te espera. Hoy es un gran día.",
+      "Levantate {user}, los grandes logros empiezan temprano.",
+      "Buenos días, {user}. Otro día para ser mejor que ayer.",
+      "Hola {user}, buenos días. Espero que hoy sea un día increíble para ti.",
+      "Buen día {user}, te deseo lo mejor para hoy.",
+      "Buenos días, {user}. Que tengas un día lleno de buenas vibras.",
+      "Otro amanecer, señor {user}. El mundo sigue girando, lamentablemente para usted.",
+      "Buenos días, señor {user}. La realidad le saluda nuevamente.",
+      "Es hora de levantarse, {user}. Sí, otra vez. Lo siento por usted.",
+      "Inicio de sesión matinal autorizado, señor {user}. Bienvenido.",
+      "Protocolo de despertar ejecutado con éxito. Buen día, señor {user}.",
+      "Buenos días, señor {user}. Diagnóstico del sistema: operativo."
+    ],
+    "greeting_afternoon": [
+      "Buenas tardes, señor {user}. Soy su asistente virtual.",
+      "Buenas tardes, {user}. Soy Jarvis, a sus órdenes.",
+      "Reactivando sistemas. Buenas tardes, señor {user}.",
+      "Buenas tardes, señor {user}. Espero que su día transcurra bien.",
+      "Tarde productiva, {user}. Continuemos.",
+      "Hola {user}, buenas tardes. ¿Cómo va tu día?",
+      "Buenas tardes, señor {user}. Listo cuando usted lo esté."
+    ],
+    "greeting_evening": [
+      "Buenas noches, señor {user}. Soy su asistente virtual.",
+      "Buenas noches, {user}. Soy Jarvis, a su servicio.",
+      "Activación nocturna en curso. Buenas noches, señor {user}.",
+      "Buenas noches, señor {user}. Sistemas nocturnos activados.",
+      "Cae la noche, señor {user}. Aquí estoy.",
+      "Hola {user}, buenas noches. Espero que hayas tenido un buen día.",
+      "Modo nocturno activado, señor {user}."
+    ],
+    "time_date": [
+      "La hora actual es {time}, {date}. Todos los sistemas están operativos.",
+      "Son las {time}. Hoy es {date}. Sistemas en línea.",
+      "Hora local: {time}, {date}. Funciones óptimas."
+    ],
+    "welcome_rested": [
+      "Confío en que sus ciclos de descanso hayan sido óptimos.",
+      "Espero que haya descansado adecuadamente.",
+      "Sus parámetros vitales sugieren un buen descanso.",
+      "Confío en que esté listo para comenzar el día."
+    ],
+    "weather_intro": [
+      "Permítame informarle. Reporte meteorológico de {city}, actualizado.",
+      "Procediendo con el reporte meteorológico de {city}.",
+      "Las condiciones climáticas en {city} son las siguientes."
+    ],
+    "weather_current": [
+      "temperatura  de {temp} grados centígrados, {condition}. Humedad del {humidity} por ciento. Vientos de {wind} kilómetros por hora.",
+      "Actualmente registramos {temp} grados, {condition}. Humedad relativa al {humidity} por ciento, con vientos de {wind} kilómetros por hora.",
+      "Condiciones actuales: {temp} grados centígrados, {condition}, humedad del {humidity} por ciento, Vientos de {wind} kilómetros por hora."
+    ],
+    "weather_forecast": [
+      "Hoy se esperan máximas de {tmax} grados y mínimas de {tmin}, Probabilidad de lluvia: {rain_prob} por ciento."
+    ],
+    "warning_rain": [
+      "La probabilidad de precipitación es considerable. Sugiero portar paraguas, {user}.",
+      "Existe probabilidad significativa de lluvia. Le recomiendo un paraguas, {user}.",
+      "Sugiero llevar paraguas hoy, {user}. Se anticipan precipitaciones."
+    ],
+    "warning_heavy_rain": [
+      "Alerta: precipitación intensa anticipada. Le recomiendo encarecidamente portar paraguas, {user}.",
+      "Atención, {user}: se espera lluvia intensa. Le recomiendo precauciones adicionales.",
+      "Alerta meteorológica: lluvia fuerte prevista. Tome las precauciones necesarias, {user}."
+    ],
+    "warning_extreme_heat": [
+      "Temperatura extrema detectada. Recomiendo hidratación constante y evitar exposición prolongada al sol, {user}.",
+      "Alerta de calor extremo. Mantengase hidratado y limite la exposición solar, {user}.",
+      "Temperaturas peligrosamente altas hoy. Hidratación es prioridad, {user}."
+    ],
+    "warning_sunny_hot": [
+      "Día soleado y cálido. Sugiero protección solar, gafas y abundante hidratación, {user}.",
+      "Cielo despejado con calor moderado. Use protector solar y mantengase hidratado, {user}.",
+      "Día caluroso y soleado por delante. Recomiendo protección solar, {user}."
+    ],
+    "warning_hot": [
+      "Temperatura elevada. Le sugiero mantenerse hidratado a lo largo del día, {user}.",
+      "Día caluroso en perspectiva. Hidratación constante recomendada, {user}.",
+      "Las temperaturas estarán altas hoy. Mantengase fresco e hidratado, {user}."
+    ],
+    "warning_very_cold": [
+      "Temperaturas notablemente bajas. Recomiendo abrigo completo y precaución al salir, {user}.",
+      "Frío intenso pronosticado. Abrigue se adecuadamente, {user}.",
+      "Alerta de bajas temperaturas. Recomiendo varias capas de abrigo, {user}."
+    ],
+    "warning_cold": [
+      "La temperatura es fresca. Le sugiero abrigo apropiado para la ocasión, {user}.",
+      "Día fresco. Recomiendo llevar abrigo, {user}.",
+      "Las temperaturas serán bajas. Vista ropa adecuada, {user}."
+    ],
+    "warning_windy": [
+      "Vientos intensos detectados. Recomiendo precaución, especialmente al conducir, {user}.",
+      "Se anticipan vientos fuertes. Tome precauciones, {user}.",
+      "Alerta de viento. Precaución en zonas abiertas, {user}."
+    ],
+    "warning_foggy": [
+      "Visibilidad reducida por neblina. Recomiendo precaución al desplazarse, {user}.",
+      "Se anticipa neblina. Conduzca con precaución, {user}.",
+      "Niebla pronosticada hoy. Visibilidad limitada, {user}."
+    ],
+    "recommendation_clear": [
+      "Día despejado y agradable. Condiciones óptimas para sus actividades, {user}.",
+      "Cielo despejado por delante. Excelente día, {user}.",
+      "Condiciones climáticas perfectas hoy, {user}. Aprovéchelas."
+    ],
+    "recommendation_cloudy": [
+      "Cielo nublado en el horizonte. Probable un día estable, {user}.",
+      "Día nublado pero estable, {user}.",
+      "Cielo cubierto, sin precipitaciones esperadas, {user}."
+    ],
+    "weather_error": [
+      "Los datos meteorológicos no están disponibles en este momento, {user}.",
+      "No puedo acceder al reporte del clima en este momento, {user}."
+    ],
+    "weather_unavailable": [
+      "No he podido establecer conexión con el servicio meteorológico, {user}. Mis disculpas.",
+      "Error de conexión con el servicio meteorológico, {user}."
+    ],
+    "outro": [
+      "Iniciando protocolo de motivación en....  cinco......  cuatro......   tres......  dos......  uno......"
+    ],
+    "weather_extras": [
+      "La sensación térmica es de {apparent_temp} grados.",
+      "Se siente como {apparent_temp} grados.",
+      "La sensación real es de {apparent_temp} grados centígrados."
+    ],
+    "holiday_notice": [
+      "Recuerde que hoy es {holiday_name}, feriado nacional. Disfrute su día libre, {user}.",
+      "Aviso importante, {user}: hoy es {holiday_name}, día feriado. No se preocupe por el trabajo.",
+      "Hoy es feriado: {holiday_name}. Aproveche este día para descansar, {user}.",
+      "Notificación de feriado: hoy se celebra {holiday_name}. Día no laboral, {user}.",
+      "{user}, hoy es {holiday_name}. Día festivo oficial. Disfrute al máximo.",
+      "Atención, {user}: hoy es feriado por {holiday_name}. Día libre confirmado."
+    ],
+    "holiday_tomorrow_notice": [
+      "Aviso importante, {user}: mañana es {holiday_tomorrow}, feriado nacional. Planifique en consecuencia.",
+      "Notificación: mañana será {holiday_tomorrow}, día no laboral. Tenga su día tranquilo, {user}.",
+      "{user}, recuerde que mañana se conmemora {holiday_tomorrow}. Día feriado oficial.",
+      "Atención: mañana hay feriado por {holiday_tomorrow}. Aproveche el fin de semana largo, {user}.",
+      "Mañana es feriado: {holiday_tomorrow}. Tome nota, {user}."
+    ]
+  },
+  "holidays_country": "BO",
+  "custom_holidays": [
+    {
+      "date": "01-01",
+      "name": "Año Nuevo"
+    },
+    {
+      "date": "01-22",
+      "name": "Día del Estado Plurinacional"
+    },
+    {
+      "date": "05-01",
+      "name": "Día del Trabajador"
+    },
+    {
+      "date": "06-21",
+      "name": "Año Nuevo Aymara"
+    },
+    {
+      "date": "08-06",
+      "name": "Día de la Independencia de Bolivia"
+    },
+    {
+      "date": "09-24",
+      "name": "Día del Departamento de Santa Cruz"
+    },
+    {
+      "date": "10-12",
+      "name": "Día de la Descolonización"
+    },
+    {
+      "date": "11-02",
+      "name": "Día de los Difuntos"
+    },
+    {
+      "date": "12-25",
+      "name": "Navidad"
+    },
+    {
+      "date": "2026-02-16",
+      "name": "Lunes de Carnaval"
+    },
+    {
+      "date": "2026-02-17",
+      "name": "Martes de Carnaval"
+    },
+    {
+      "date": "2026-04-03",
+      "name": "Viernes Santo"
+    },
+    {
+      "date": "2026-06-04",
+      "name": "Corpus Christi"
+    },
+    {
+      "date": "2026-06-05",
+      "name": "Puente por Corpus Christi"
+    }
+  ],
+  "sound_pre_intro": "sounds/alarm_iphone2.mp3"
+}

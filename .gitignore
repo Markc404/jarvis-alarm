@@ -1,0 +1,33 @@
+# Datos sensibles - NUNCA subir
+config.json
+
+# Cache y outputs generados
+audio_cache/
+weather_last.json
+holidays_cache.json
+jarvis.log
+trigger.log
+jarvis_output.mp3
+jarvis_output.wav
+jarvis_sample.mp3
+jarvis_sample.wav
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
