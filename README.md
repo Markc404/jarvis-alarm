@@ -163,4 +163,4 @@ Dale una ⭐ al repositorio y compártelo. Eso ayuda muchísimo a que más gente
 
 ---
 
-Hecho con ❤️ por [Mark Otenory](https://github.com/markotenory)
+Hecho con ❤️ por [Mark tenorio](https://github.com/markotenory)
